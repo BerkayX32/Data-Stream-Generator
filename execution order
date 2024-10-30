@@ -1,0 +1,9 @@
+Execution Order
+Run main.py:
+
+This will start the real-time data stream simulation and display the visualizations.
+While it is running, you can observe how anomalies are detected in real time.
+Run generate_output_csv.py:
+
+After you finish observing the output from main.py (or even while it's running), you can execute this script to generate a CSV file with simulated data points.
+This file will contain the data points, their timestamps, and whether each point is classified as an anomaly.
